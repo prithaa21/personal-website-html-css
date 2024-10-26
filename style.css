@@ -1,0 +1,118 @@
+.P-1 {
+    background-color: beige;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.P-1>.title-box>img {
+    border-radius: 30%;
+    border-width: 20px;
+    border-color: #B0DAB9;
+}
+.title-box {
+    text-align: center;
+    font-family: serif;
+}
+.title-box>h1 {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 400;
+        font-style: normal; 
+        color: darkslategray;   
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+
+.d-block  {
+    border-radius: 50%;
+    align-items: center;
+    height: 150px;
+    width: 150px;    
+}
+.d-block>button {
+    color: forestgreen;
+}
+.P-2 {
+    background: #DAD299;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.P-4 {
+    background-color:#B0DAB9;
+    padding: 100px;
+    text-align: left;
+}
+.P-4>.container>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.P-4>.container>{
+    display : grid;
+    grid-template-rows: 200px auto;
+    grid-template-columns: 100px auto;
+}
+
+.P-3>.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.P-3 {
+    background-color: beige;
+}
+.P-3>.container>h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.P-4 h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 200;
+    padding:10px;
+}
+
+.col-sm-12 button {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.P-6 {
+    background: #DAD299;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.P-2>.profile>.px-4>.d-block>.display-5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.P-5 {
+    background-color: beige;
+}
+
+.P-2 button {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.P-5 button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.P-5 h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.P-2 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
